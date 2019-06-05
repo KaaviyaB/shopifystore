@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("data:image/jpeg;base64,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");
+  background-size: cover;
+}
+h1 {
+  font-family: Lobster;
+  font-size: 240px;
+  padding-bottom: 20px;
+  margin-left: 500px;
+}
+h3 {
+  font-family: Satisfy;
+  font-size: 30px;
+  text-align: center
+}
+li a:hover {
+  color: black;
+}
+
+li a {
+  color: white;
+}
+.first_line {
+  font-family: Asap;
+  margin-left: 0px;
+}
+.nattuvangam {
+  margin-left: 120px;
+  margin-top: 30px;
+  width: 120%;
+  border-radius: 8%;
+  box-shadow: 4px 4px 5px;
+}
+.salangai {
+  margin-left: 220px;
+  margin-top: 30px;
+  width: 112%;
+  border-radius: 8%;
+  box-shadow: 4px 4px 5px;
+}
+.nattuvangam:hover {
+  opacity: 0.9;
+  width: 122%;
+  transition: .8s ease;
+}
+.salangai:hover {
+  opacity: 0.9;
+  width: 114%;
+  transition: .8s ease;
+}
+.nattu-caption {
+  font-family: Asap;
+  font-size: 20px;
+  margin-left: 250px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.salangai-caption {
+  font-family: Asap;
+  font-size: 20px;
+  margin-left: 370px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+  font-family: Asap;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+.contact_line {
+  text-align: left;
+  margin-left: 40px;
+  font-family: Arial;
+  font-size: 32px;
+}
+.hot_line {
+  text-align: left;
+  margin-left: 10px;
+  font-family: Arial;
+  font-size: 32px;
+}
+.address {
+  font-family: Arial;
+  font-size: 22px;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+.email {
+  font-family: Arial;
+  font-size: 18px;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+.building {
+  height: 120%;
+  width: 100%;
+}
+* {
+  box-sizing:border-box
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 10s;
+  animation-name: fade;
+  animation-duration: 10s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .9}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .9}
+  to {opacity: 1}
+}
